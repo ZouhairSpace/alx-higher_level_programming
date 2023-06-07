@@ -8,4 +8,3 @@ for i in range(0, 10):
             print(last_numbers)
         else:
             print("{}{}, ".format(i, j), end='')
-
