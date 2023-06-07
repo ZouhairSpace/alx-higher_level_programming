@@ -1,16 +1,15 @@
 #!/usr/bin/python3
 def fizzbuzz():
-    result = ""
+    output = []
     for i in range(1, 101):
         if i % 3 == 0 and i % 5 == 0:
-            result += "FizzBuzz"
+            output.append("FizzBuzz")
         elif i % 5 == 0:
-            result += "Buzz"
+            output.append("Buzz")
         elif i % 3 == 0:
-            result += "Fizz"
+            output.append("Fizz")
         else:
-            result += str(i)
-        result += ' '  # Add a space after each value
-    print(result)
+            output.append(str(i))
+    print(' '.join(output))
 
 fizzbuzz()
