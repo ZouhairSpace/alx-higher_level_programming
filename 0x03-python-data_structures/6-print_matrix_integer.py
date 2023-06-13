@@ -7,4 +7,3 @@ def print_matrix_integer(input_matrix=[[]]):
                 print("{:d}".format(element), end=" " if element != row[-1] else '\n')
     else:
         print()
-
