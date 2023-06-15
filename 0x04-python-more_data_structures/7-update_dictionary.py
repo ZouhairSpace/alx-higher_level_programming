@@ -7,4 +7,4 @@ def update_dictionary(a_dictionary, key, value):
     key/value in a dictionary.
     """
     a_dictionary[key] = value
-    return 
+    return a_dictionary 
